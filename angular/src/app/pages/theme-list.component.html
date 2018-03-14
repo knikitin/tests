@@ -1,0 +1,10 @@
+<h2>Список курсов</h2>
+<dx-data-grid [dataSource]="themes"
+              [allowColumnResizing]="true"
+              [columnResizingMode]="widget"
+              [columnMinWidth]="50"
+              [columnAutoWidth]="true">
+  <dxi-column dataField="id" caption="#"></dxi-column>
+  <dxi-column dataField="name" caption="Название"></dxi-column>
+  <dxi-column dataField="parentId" caption="ПарентИД"></dxi-column>
+</dx-data-grid>

@@ -21,12 +21,12 @@ const Cource = db.define('cources', {
 
 Cource.belongsTo(theme, { as: 'theme', foreignKey: 'themes_id' });
 
-// Cource.sync({force: false}).then(() => {
-//     // Table created
-//     return Cource.create({
-//         id: 1,
-//         name: 'firs'
-//     });
-//     });    
+//  Cource.sync({force: false}).then(() => {
+//      // Table created
+//      return Cource.create({
+//          id: 1,
+//          name: 'firs'
+//      });
+//      });    
   
 module.exports = Cource;

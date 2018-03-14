@@ -18,11 +18,11 @@ const Theme = db.define('themes', {
     underscored: true
   });
   
-    // Theme.sync({force: false}).then(() => {
-    // // Table created
-    // return Theme.create({
-    //     name: 'second'
-    // });
-    // });    
+    //  Theme.sync({force: false}).then(() => {
+    //  // Table created
+    //  return Theme.create({
+    //      name: 'second'
+    //  });
+    //  });    
 
 module.exports = Theme;
